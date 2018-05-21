@@ -15,9 +15,9 @@ function deleteFromObjectByKey(object, key) {
  return newObj;
 }
 
-function destructivelyDeleteFromObjectByKey(recipes, key) {
-  delete recipes['key'];
-  return recipes; 
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object['key'];
+  return object; 
 }
 /*
 stuff = {flour: 'lots', sugar: 'many', salt: 'none', dairy: 'little'};
